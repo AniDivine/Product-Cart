@@ -8,68 +8,69 @@
     display: flex;
     background: hsl(13, 31%, 94%);
     justify-content: space-between;
-    padding: 150px;
+    padding: 70px;
 }
 .left-cart h1{
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 30px;
+    width: ;
 }
 .cart-items{
     display: grid;
-    grid-template-columns: repeat(3, 0.7fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr); 
 }
 .dessert-card{
     text-align: left;
-    margin-right: 80px;
+    margin-right: 20px;
     position: relative;
 }
 .dessert-img{
-    width: 500px;
-    border-radius: 15px;
-    height: 500px;
+    width: 230px;
+    border-radius: 10px;
+    height: 210px;
 }
 .dessert-nick {
-    font-size: 25px;
+    font-size: 15px;
     color: hsl(14, 25%, 72%);
-    padding-top: 70px;
+    padding-top: 45px;
 }
 .dessert-name {
-    font-size: 30px;
-    padding: 17px 0;
+    font-size: 17px;
+    padding: 15px 0;
     color: hsl(14, 65%, 9%);
 }
 .price{
-    font-size: 33px;
+    font-size: 18px;
     color: hsl(14, 86%, 42%);
     padding-bottom: 70px;
 }
 .dessert-card button{
     border-radius: 50px;
-    width: 300px;
-    height: 70px;
+    width: 130px;
+    height: 40px;
     font-size: 30px;
     position: absolute;
-    bottom: 260px;
+    bottom: 190px;
     z-index: 1;
-    left: 100px;
+    left: 45px;
     cursor: pointer;
-    border: 3px solid hsl(14, 25%, 72%);
+    border: 1px solid hsl(14, 25%, 72%);
     background: hsl(20, 50%, 98%);
+    padding-bottom: 7px;
 }
 button img{
-    width: 35px;
+    width: 15px;
     margin-right: 10px;
 }
 button span{
-    margin-bottom: 12px;
-    font-size: 30px;
+    font-size: 13px;
 }
 .dessert-card button:hover{
     color: hsl(14, 86%, 42%);
     border-color: hsl(14, 86%, 42%);
-    width: 305px;
-    height: 75px;
+    width: 132px;
+    height: 41px;
 }
 
