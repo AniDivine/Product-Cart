@@ -8,13 +8,12 @@
     display: flex;
     background: hsl(13, 31%, 94%);
     justify-content: space-between;
-    padding: 70px;
+    padding: 100px;
 }
 .left-cart h1{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 30px;
-    width: ;
 }
 .cart-items{
     display: grid;
@@ -25,16 +24,20 @@
     text-align: left;
     margin-right: 20px;
     position: relative;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .dessert-img{
     width: 230px;
-    border-radius: 10px;
     height: 210px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .dessert-nick {
     font-size: 15px;
     color: hsl(14, 25%, 72%);
-    padding-top: 45px;
+    padding-top: 40px;
 }
 .dessert-name {
     font-size: 17px;
@@ -44,7 +47,7 @@
 .price{
     font-size: 18px;
     color: hsl(14, 86%, 42%);
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 .dessert-card button{
     border-radius: 50px;
@@ -52,25 +55,25 @@
     height: 40px;
     font-size: 30px;
     position: absolute;
-    bottom: 190px;
+    bottom: 145px;
     z-index: 1;
     left: 45px;
     cursor: pointer;
     border: 1px solid hsl(14, 25%, 72%);
     background: hsl(20, 50%, 98%);
-    padding-bottom: 7px;
+    padding-bottom: 15px;
 }
 button img{
     width: 15px;
-    margin-right: 10px;
 }
 button span{
     font-size: 13px;
 }
 .dessert-card button:hover{
     color: hsl(14, 86%, 42%);
-    border-color: hsl(14, 86%, 42%);
+    border: 1.5px solid hsl(14, 86%, 42%);
     width: 132px;
     height: 41px;
 }
+
 
