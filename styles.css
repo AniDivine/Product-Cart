@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background: hsl(20, 50%, 98%);
+    justify-content: space-between;
+    padding: 100px;
+}
+.cart-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.dessert-img{
+    width: 500px;
+    border-radius: 10px;
+}
