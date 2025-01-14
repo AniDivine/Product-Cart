@@ -2,20 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Red Hat Text", sans-serif;
 }
 .container{
     display: flex;
-    background: hsl(20, 50%, 98%);
+    background: hsl(13, 31%, 94%);
     justify-content: space-between;
     padding: 150px;
 }
 .left-cart h1{
     margin-bottom: 70px;
     font-weight: 700;
+    font-size: 65px;
 }
 .cart-items{
     display: grid;
-    grid-template-columns: repeat(3, 0.8fr);
+    grid-template-columns: repeat(3, 0.7fr);
     grid-template-rows: repeat(3, 1fr); 
 }
 .dessert-card{
@@ -24,32 +26,50 @@
     position: relative;
 }
 .dessert-img{
-    width: 450px;
+    width: 500px;
     border-radius: 15px;
-    height: 450px;
+    height: 500px;
 }
 .dessert-nick {
-    font-size: 30px;
+    font-size: 25px;
     color: hsl(14, 25%, 72%);
     padding-top: 70px;
 }
 .dessert-name {
-    font-size: 35px;
-    padding: 15px 0;
+    font-size: 30px;
+    padding: 17px 0;
+    color: hsl(14, 65%, 9%);
 }
 .price{
-    font-size: 38px;
+    font-size: 33px;
     color: hsl(14, 86%, 42%);
     padding-bottom: 70px;
 }
 .dessert-card button{
     border-radius: 50px;
-    width: 250px;
+    width: 300px;
     height: 70px;
     font-size: 30px;
     position: absolute;
     bottom: 260px;
     z-index: 1;
     left: 100px;
+    cursor: pointer;
+    border: 3px solid hsl(14, 25%, 72%);
+    background: hsl(20, 50%, 98%);
+}
+button img{
+    width: 35px;
+    margin-right: 10px;
+}
+button span{
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+.dessert-card button:hover{
+    color: hsl(14, 86%, 42%);
+    border-color: hsl(14, 86%, 42%);
+    width: 305px;
+    height: 75px;
 }
 
