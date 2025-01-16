@@ -9,11 +9,14 @@
     background: hsl(13, 31%, 94%);
     justify-content: space-between;
     padding: 100px;
+    width: 100%;
+    height: auto;
 }
 .left-cart h1{
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 30px;
+    color: hsl(14, 65%, 9%);
 }
 .cart-items{
     display: grid;
@@ -25,14 +28,11 @@
     margin-right: 20px;
     position: relative;
     margin-bottom: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .dessert-img{
     width: 230px;
     height: 210px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
 }
 .dessert-nick {
     font-size: 15px;
@@ -45,35 +45,65 @@
     color: hsl(14, 65%, 9%);
 }
 .price{
-    font-size: 18px;
+    font-size: 20px;
     color: hsl(14, 86%, 42%);
     padding-bottom: 30px;
 }
 .dessert-card button{
     border-radius: 50px;
-    width: 130px;
+    width: 140px;
     height: 40px;
     font-size: 30px;
     position: absolute;
-    bottom: 145px;
+    bottom: 150px;
     z-index: 1;
-    left: 45px;
+    left: 40px;
     cursor: pointer;
     border: 1px solid hsl(14, 25%, 72%);
     background: hsl(20, 50%, 98%);
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 button img{
     width: 15px;
 }
 button span{
     font-size: 13px;
+    font-weight: 400;
 }
 .dessert-card button:hover{
     color: hsl(14, 86%, 42%);
     border: 1.5px solid hsl(14, 86%, 42%);
-    width: 132px;
+    width: 142px;
     height: 41px;
 }
-
+.right-cart{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background: hsl(20, 50%, 98%);
+    max-width: 410px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    height: fit-content;
+}
+.right-cart h1{
+    flex-grow: 1;
+    color: hsl(14, 86%, 42%);
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.no-items-selected{
+    width: 100%;
+    text-align: center;
+}
+.no-items-selected img{
+    width: 200px;
+    
+}
+.no-items-selected h2{
+    font-size: 13px;
+    color: hsl(14, 25%, 72%);
+}
 
