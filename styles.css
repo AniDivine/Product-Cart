@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Red Hat Text", sans-serif;
+    color: hsl(14, 65%, 9%);
 }
 .container{
     display: flex;
     background: hsl(13, 31%, 94%);
     justify-content: space-between;
-    padding: 100px;
+    padding: 80px;
     width: 100%;
     height: auto;
+    /* opacity: 0.5;
+    filter: brightness(0.5); */
 }
 .left-cart h1{
     margin-bottom: 30px;
@@ -61,14 +64,14 @@
     cursor: pointer;
     border: 1px solid hsl(14, 25%, 72%);
     background: hsl(20, 50%, 98%);
-    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(14, 65%, 9%);
+    padding: 0;
 }
 button img{
     width: 15px;
-}
-button span{
-    font-size: 13px;
-    font-weight: 400;
+    display: inline-block;
 }
 .dessert-card button:hover{
     color: hsl(14, 86%, 42%);
@@ -88,11 +91,11 @@ button span{
     margin-left: 10px;
     height: fit-content;
 }
-.right-cart h1{
+.Your-cart{
     flex-grow: 1;
     color: hsl(14, 86%, 42%);
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 .no-items-selected{
     width: 100%;
@@ -106,4 +109,139 @@ button span{
     font-size: 13px;
     color: hsl(14, 25%, 72%);
 }
+.cart-item{
+    list-style: none;
+}
+li{
+    margin-top: 20px;
+}
+.cart-item h1{
+    font-size: 18px;
+    color: hsl(14, 65%, 9%);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.cart-item h2{
+    display: inline;
+    font-size: 15px;
+    font-weight: 450;
+}
+.cart-quantity{
+    color: hsl(14, 86%, 42%);
+    margin-right: 17px;
+}
+.per-price{
+    color: hsl(14, 25%, 72%);
+    margin-right: 10px;
+}
+.cart-item span{
+    position: relative;
+    left: 180px;
+    bottom: 20px;
+    cursor: pointer;
+}
+hr{
+    margin-top: 25px;
+    background-color: hsl(13, 31%, 94%);
+}
+.yourcart-buttom{
+    margin-top: 20px;
+}
+.order-total{
+    display: inline;
+    font-size: 15px;
+    font-weight: 450;
+    margin-right: 132px;
+    margin-top: 20px;
+}
+.total{
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.carbon{
+    background: hsl(13, 31%, 94%);
+    border-radius: 10px;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+.carbon img{
+    display: inline-block;
+}
+.carbon h2{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 450;
+    color: hsl(14, 25%, 72%);
+}
+button{
+    margin: 10px auto;
+    border-style: none;
+    background: hsl(14, 86%, 42%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
 
+/* order confirmation dialogue */
+.order-container{
+    width: 35%;
+    height: auto;
+    max-height: 90%;
+    padding: 30px;
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    background: hsl(20, 50%, 98%);
+    border-radius: 15px;
+    padding: 35px;
+}
+.order-container .order-list li::before{
+    content: "";
+    background-image: url(./assets/images/image-macaron-thumbnail.jpg);
+    height: 40px;
+    width: 40px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+} 
+.order-container img{
+    width: 40px;
+    margin-bottom: 16px;
+}
+.order-container h1{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.order-container h2{
+    font-size: 13px;
+    color: hsl(14, 25%, 72%);
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+.order-list {
+    background: hsl(13, 31%, 94%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.order-list ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.order-list li h1{
+    font-size: 15px;
+    font-weight: 450;
+}
+.order-list li h2{
+    display: inline-block;
+}
+.order-list hr{
+    margin-top: 9px;
+    background-color: hsl(13, 31%, 94%);
+}

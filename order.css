@@ -1,0 +1,63 @@
+.order-container{
+    width: 35%;
+    height: auto;
+    min-height: 45%;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+ul{
+    list-style: none;
+}
+
+
+li{
+    margin-top: 20px;
+}
+.cart-name{
+    font-size: 18px;
+    color: hsl(14, 65%, 9%);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#cart-item h2{
+    display: inline;
+    font-size: 15px;
+    font-weight: 450;
+}
+.cart-quantity{
+    color: hsl(14, 86%, 42%);
+    margin-right: 17px;
+}
+.per-price{
+    color: hsl(14, 25%, 72%);
+    margin-right: 10px;
+}
+hr{
+    margin-top: 25px;
+    background-color: hsl(13, 31%, 94%);
+}
+.yourcart-buttom{
+    margin-top: 20px;
+}
+.order-total{
+    display: inline;
+    font-size: 15px;
+    font-weight: 450;
+    margin-right: 132px;
+    margin-top: 20px;
+}
+.total{
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 20px;
+}
+button{
+    margin: 10px auto;
+    border-style: none;
+    background: hsl(14, 86%, 42%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #fff;
+    width: 100%;
+}
